@@ -14,7 +14,7 @@
         </div>
         <form action="{{ url_for('digitalize') }}" method="post">
             <input type="hidden" name="filename" value="{{ filename }}">
-            <input type="submit" value="Digitalize">
+            <input type="submit" value="Digitalize" disabled>
         </form>
         <form action="{{ url_for('show_text', filename=filename ) }}" method="post">
             <input type="hidden" name="filename" value="{{ filename }}">

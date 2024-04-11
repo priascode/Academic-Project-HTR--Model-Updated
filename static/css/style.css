@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-image:url('./hw.jpeg') ;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover; 
     margin: 0;
     padding: 0;
 }
@@ -9,7 +12,7 @@ body {
     max-width: 1000px;
     margin: 100px auto;
     padding: 20px;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -17,8 +20,8 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    border:2px solid skyblue;
-    background-color: #3498db;
+    border:2px solid hwb(41 7% 42%);
+    background-color: #eaaf5720;
     margin-bottom: 20px;
 }
 
@@ -42,7 +45,7 @@ input[type="file"] {
 
 input[type="submit"] {
     border: none;
-    background-color:green;
+    background-color:hwb(41 7% 42%);
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
